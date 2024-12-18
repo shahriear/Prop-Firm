@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer components {
+@layer components {
   .primary_btn {
     @apply text-white font-semibold py-3 px-6 rounded-xl  hover:-translate-y-2 duration-300;
   }
@@ -11,4 +11,4 @@
   .drop_shadow {
     filter: drop-shadow(-6px 8px 15px rgba(0, 0, 0, 0.2));
   }
-} */
+}

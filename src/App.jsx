@@ -8,11 +8,13 @@ import Faq from './Components/Home/Faq';
 import JoinOur from './Components/Home/JoinOur';
 import Footer from './Components/Home/Footer';
 import Navbar from './Components/Navbar';
+import Banner from './Components/Home/Banner';
 
 const App = () => {
   return (
     <>
       <Navbar />
+      <Banner />
       <LaunchPad />
       <WhyPropFirm />
       <IntegratedSolution />
