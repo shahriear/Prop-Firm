@@ -65,13 +65,17 @@ const Banner = () => {
         </div>
       </div>
       {/* Counter */}
-      <div className="md:pl-52">
+      <ScrollTrigger
+        onEnter={() => setCounterOn(true)}
+        onExit={() => setCounterOn(false)}
+        className=" "
+      >
         <div className="text-center  grid grid-cols-2 md:grid-cols-4 md:px-52 gap-y-10   pb-12  ">
           <div>
             <h3 className="text-[38px] font-primary text-white font-semibold ">
               <span className=" bg-gradient-to-tr from-blue-200 via-blue-400 to- bg-clip-text text-transparent">
                 US$
-                <CountUp delay={0.2} end={15} duration={10} />
+                {counterOn && <CountUp delay={0.2} end={15} duration={10} />}
                 M+
               </span>
             </h3>
@@ -83,7 +87,7 @@ const Banner = () => {
           <div>
             <h3 className="text-[38px] font-primary text-white font-semibold">
               <span className="counterUp bg-gradient-to-tr from-blue-200 via-blue-400 to-indigo-700 bg-clip-text text-transparent">
-                <CountUp delay={0.2} end={50} duration={7} />+
+                {counterOn && <CountUp delay={0.2} end={50} duration={7} />}+
               </span>
             </h3>
             <p className="text-white font-primary font-semibold  text-[18px]">
@@ -93,7 +97,7 @@ const Banner = () => {
           <div>
             <h3 className="text-[38px] font-primary text-white font-semibold">
               <span className="counterUp bg-gradient-to-tr from-blue-200 via-blue-400 to-indigo-700 bg-clip-text text-transparent">
-                <CountUp delay={0.2} end={45} duration={7} />+
+                {counterOn && <CountUp delay={0.2} end={45} duration={7} />}+
               </span>
             </h3>
             <p className="text-white font-primary font-semibold text-[18px]">
@@ -103,7 +107,7 @@ const Banner = () => {
           <div>
             <h3 className="text-[38px] font-primary text-white font-semibold">
               <span className=" CountUp bg-gradient-to-tr from-blue-200 via-blue-400 to-indigo-700 bg-clip-text text-transparent">
-                <CountUp delay={0.2} end={125} duration={6} />
+                {counterOn && <CountUp delay={0.2} end={125} duration={6} />}
                 K+
               </span>
             </h3>
@@ -112,7 +116,7 @@ const Banner = () => {
             </p>
           </div>
         </div>
-      </div>
+      </ScrollTrigger>
     </section>
   );
 };
