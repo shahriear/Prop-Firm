@@ -4,7 +4,7 @@
 
 @layer components {
   .primary_btn {
-    @apply text-white font-semibold py-3 px-6 rounded-xl  hover:-translate-y-2 duration-300;
+    @apply text-white font-semibold  rounded-xl  hover:-translate-y-2 duration-300;
   }
 }
 @layer utilities {

@@ -92,8 +92,8 @@ const Footer = () => {
               </div>
             </div>
             {/* Social Links */}
-            <div>
-              <div className="flex items-center gap-3 mt-6">
+            <div className="px-4">
+              <div className="flex items-center ju gap-3 mt-6">
                 <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3">
                   Let’s Connect
                 </h1>
@@ -105,7 +105,7 @@ const Footer = () => {
                     68 Circular Road, #02-01, <br /> 049422, Singapore
                   </p>
                 </div>
-                <div className="flex items-center gap-3 mt-3">
+                <div className="flex items-center gap-3 mt-3  ">
                   <LuMail className="text-3xl" />
                   <p>info@yourpropfirm.com</p>
                 </div>
@@ -131,13 +131,13 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-t border-slate-500 pb-20 text-white text-[15px] font-semibold flex items-center">
-        <p className=" ml-52 py-4 flex items-center gap-1">
+      <div className="border-t border-slate-500 pb-20 text-white text-[15px] font-semibold flex items-center px-4">
+        <p className=" md:ml-52 py-4 flex items-center gap-1">
           <MdOutlineCopyright className="text-white  text-lg" />
           Copyright 2022-2024 YourPropFirm Pte Ltd. Business Registration
           Number: 202405866D – All Right Reserved
         </p>
-        <a href="#" className="pl-96">
+        <a href="#" className="md:pl-96">
           Terms & Conditions <span>Privacy Policy</span>
         </a>
       </div>

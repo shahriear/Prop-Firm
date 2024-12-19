@@ -11,7 +11,7 @@ const WhyPropFirm = () => {
     <section className="bg-black pb-20">
       <div className="container">
         <div>
-          <div className="text-center pt-8 flex flex-col  items-center">
+          <div className="text-center pt-8 flex flex-col  items-center px-4">
             <h2 className="text-white font-primary font-bold text-4xl leading-normal">
               Why
               <span className="bg-gradient-to-tr from-blue-200 via-blue-400 to-indigo-700 bg-clip-text text-transparent pl-2">
@@ -27,9 +27,9 @@ const WhyPropFirm = () => {
             </p>
           </div>
           {/* part-three */}
-          <div className="pt-16 px-16">
-            <div className=" grid grid-cols-3 gap-7">
-              <div className="bg-blue-800/20  border border-gray-500 pt-14 pl-14 rounded-xl   hover:bg-gradient-to-bl from-blue-950 via-blue-950 to-indigo-600  relative overflow-hidden">
+          <div className="py-10 md:pt-16 px-10 md:px-16">
+            <div className=" grid md:grid-cols-3 gap-7">
+              <div className="bg-blue-800/20  border border-gray-500 pt-14 px-5 md:pl-14 rounded-xl   hover:bg-gradient-to-bl from-blue-950 via-blue-950 to-indigo-600  relative overflow-hidden">
                 <LuChartNoAxesCombined className="text-sky-400 text-6xl pb-2" />
                 <h2 className="text-white font-primary font-bold text-2xl ">
                   Launch Faster and <br /> Better
@@ -40,7 +40,7 @@ const WhyPropFirm = () => {
                   <br /> firm in weeks, not months.
                 </p>
               </div>
-              <div className="bg-blue-800/20  border border-gray-500 pt-14 pl-14 rounded-xl   hover:bg-gradient-to-bl from-blue-950 via-blue-950 to-indigo-600  relative overflow-hidden">
+              <div className="bg-blue-800/20  border border-gray-500 pt-14 px-5 md:pl-14 rounded-xl   hover:bg-gradient-to-bl from-blue-950 via-blue-950 to-indigo-600  relative overflow-hidden">
                 <TbDeviceImacCode className="text-sky-400 text-6xl pb-2" />
                 <h2 className="text-white font-primary font-bold text-2xl ">
                   Engineered for Prop <br /> Trading
@@ -52,7 +52,7 @@ const WhyPropFirm = () => {
                   tasks.
                 </p>
               </div>
-              <div className="bg-blue-800/20  border border-gray-500 pt-14 pl-14 rounded-xl   hover:bg-gradient-to-bl from-blue-950 via-blue-950 to-indigo-600  relative overflow-hidden">
+              <div className="bg-blue-800/20  border border-gray-500 pt-14 px-5 md:pl-14 rounded-xl   hover:bg-gradient-to-bl from-blue-950 via-blue-950 to-indigo-600  relative overflow-hidden">
                 <BsWindow className="text-sky-400 text-6xl pb-2" />
                 <h2 className="text-white font-primary font-bold text-2xl ">
                   Branding and Front- <br /> End
@@ -64,7 +64,7 @@ const WhyPropFirm = () => {
                   presence.
                 </p>
               </div>
-              <div className="bg-blue-800/20  border border-gray-500 pt-14 pl-14 rounded-xl   hover:bg-gradient-to-bl from-blue-950 via-blue-950 to-indigo-600  relative overflow-hidden">
+              <div className="bg-blue-800/20  border border-gray-500 pt-14 px-5 md:pl-14 rounded-xl   hover:bg-gradient-to-bl from-blue-950 via-blue-950 to-indigo-600  relative overflow-hidden">
                 <IoIosInfinite className="text-sky-400 text-6xl pb-2" />
                 <h2 className="text-white font-primary font-bold text-2xl ">
                   Seamless Integrations
@@ -75,7 +75,7 @@ const WhyPropFirm = () => {
                   <br /> experience for your traders.
                 </p>
               </div>
-              <div className="bg-blue-800/20  border border-gray-500 pt-14 pl-14 rounded-xl   hover:bg-gradient-to-bl from-blue-950 via-blue-950 to-indigo-600  relative overflow-hidden">
+              <div className="bg-blue-800/20  border border-gray-500 pt-14 px-5 md:pl-14 rounded-xl   hover:bg-gradient-to-bl from-blue-950 via-blue-950 to-indigo-600  relative overflow-hidden">
                 <RxGlobe className="text-sky-400 text-6xl pb-2" />
                 <h2 className="text-white font-primary font-bold text-2xl ">
                   24/7 Global Support
@@ -88,7 +88,7 @@ const WhyPropFirm = () => {
                   support.
                 </p>
               </div>
-              <div className="bg-blue-800/20  border border-gray-500 pt-14 pl-14 rounded-xl   hover:bg-gradient-to-bl from-blue-950 via-blue-950 to-indigo-600  relative overflow-hidden">
+              <div className="bg-blue-800/20  border border-gray-500 pt-14 px-5 md:pl-14 rounded-xl   hover:bg-gradient-to-bl from-blue-950 via-blue-950 to-indigo-600  relative overflow-hidden">
                 <BiSolidNetworkChart className="text-sky-400 text-6xl pb-2" />
                 <h2 className="text-white font-primary font-bold text-2xl ">
                   Marketing & CRM <br /> Integration
